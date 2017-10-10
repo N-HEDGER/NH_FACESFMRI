@@ -1,0 +1,21 @@
+Subject is doing block 1
+Pulse recieved at 2017              5              4             15             25      27.535268
+Stimulus flipped at 2017              5              4             15             25       27.57011
+Pulse recieved at 2017              5              4             15             25      29.504593
+Stimulus flipped at 2017              5              4             15             25      29.528382
+Pulse recieved at 2017              5              4             15             25       31.49428
+Stimulus flipped at 2017              5              4             15             25      31.511899
+Pulse recieved at 2017              5              4             15             25      33.469728
+NULL EVENT at 2017              5              4             15             25      33.516514
+Pulse recieved at 2017              5              4             15             25      35.471971
+Stimulus flipped at 2017              5              4             15             25      35.494757
+Pulse recieved at 2017              5              4             15             25      37.437628
+NULL EVENT at 2017              5              4             15             25      37.460927
+Pulse recieved at 2017              5              4             15             25      39.426384
+NULL EVENT at 2017              5              4             15             25      39.487585
+Pulse recieved at 2017              5              4             15             25      41.451417
+NULL EVENT at 2017              5              4             15             25      41.474614
+Pulse recieved at 2017              5              4             15             25      43.421712
+NULL EVENT at 2017              5              4             15             25      43.445533
+Pulse recieved at 2017              5              4             15             25       45.41021
+Stimulus flipped at 2017              5              4             15             25      45.428468
