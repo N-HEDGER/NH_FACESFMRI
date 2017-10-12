@@ -117,9 +117,14 @@ end
             % write in log/edf 
             log_txt = sprintf('Button press at %s',num2str(clock));
             fprintf(log_text_fid,'%s\n',log_txt);
+            break
         end
     end
  end
+ 
+while toc<(const.DUR-(slack*2))
+end
+ 
 %% Get length of presentation.
 Screen('DrawDots',scr.window,scr.mid,const.bigfixsize,const.bigfixcol,[],1);
 Screen('DrawDots',scr.window,scr.mid,const.smallfixsize,const.smallfixcol,[],1);
