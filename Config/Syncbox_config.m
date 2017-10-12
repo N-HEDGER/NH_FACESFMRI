@@ -1,5 +1,5 @@
  delete(instrfindall)
- s2 = serial('/dev/tty.usbserial-AE01IALD');
+ s2 = serial('COM4');
  s2.BaudRate=57600;
  s2.DataBits=8;
  s2.StopBits=1; 
