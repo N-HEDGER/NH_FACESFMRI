@@ -6,7 +6,7 @@
 
 2. When you run the file, you will be prompted to provide several inputs.
 
-3. First, you are prompted to input the run number (1-4). Second, you are prompted to input whether or not you are testing, or running the full version of the experiment, with the syncbox. The syncbox settings are described [here](#Syncbox settings)
+3. First, you are prompted to input the run number (1-4). Second, you are prompted to input whether or not you are testing, or running the full version of the experiment, with the syncbox. The syncbox settings are described [here](#Syncbox)
 
 4. If you indicate that it is a test, only 20 trials will run, and it will not wait for a syncbox pulse.
 
@@ -42,6 +42,6 @@ x) Neutral scrambled faces
 4. Throughout the functional run, the subjects task is to view a central fixation and indicate when it changes luminance, via button press (keycode=1). These changes will occur on 24 of the trials.
 
 
-<a id='Syncbox settings'></a>
+<a id='Syncbox'></a>
 
 
