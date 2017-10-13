@@ -12,7 +12,7 @@
 
 5. Lastly, you are asked to input a subject filename.
 
-6. After entering the subject filename, the experiment will start. You will then be presented with a grey screen, with some text that asks you to press any button to start waiting for pulses (in 'test mode' pressing the button will just start the experiment without waiting for any syncbox pulses).
+6. After entering the subject filename, the experiment will start. You will then be presented with a grey screen, with some text that asks you to press any button to start waiting for pulses (in 'test mode' pressing the button will just start the experiment without waiting for any syncbox pulses). After pressing the button - this is when you should start the functional scan, and start the Syncbox in synchronisation mode. There is a 100 second timeout from the button press during which MATLAB waits for a Syncbox pulse. 
 
 7. A central fixation will appear and a new trial will start every time a syncbox pulse is recieved (the TR for this experiment was 2 seconds).
 
@@ -20,22 +20,23 @@
 
 1. There are 240 trials in total per run
 
+
 2. In blocks 1-3, there are 10 different trial types, which are each repeated 12 times, totalling 120 *stimulus* trials.
 
-i) Fearful upright faces (12 trials)
-ii) Neutral upright faces (12 trials)
+*i) Fearful upright faces (12 trials)
+*ii) Neutral upright faces (12 trials)
 
-iii) Fearful inverted faces (12 trials)
-iv) Neutral inverted faces (12 trials)
+*iii) Fearful inverted faces (12 trials)
+*iv) Neutral inverted faces (12 trials)
 
-v) Fearful inverted, inverted faces (12 trials)
-vi) Neutral inverted, inverted faces (12 trials)
+*v) Fearful inverted, inverted faces (12 trials)
+*vi) Neutral inverted, inverted faces (12 trials)
 
-vii) Fearful upright, inverted faces (12 trials)
-viii) Neutral upright, inverted faces (12 trials)
+*vii) Fearful upright, inverted faces (12 trials)
+*viii) Neutral upright, inverted faces (12 trials)
 
-ix) Fearful scrambled faces (12 trials)
-x) Neutral scrambled faces (12 trials)
+*ix) Fearful scrambled faces (12 trials)
+*x) Neutral scrambled faces (12 trials)
 
 3. The remaining 120 trials are *null trials* during which no stimulus is presented. The trial sequence is determined by the EventTable.mat files in the 'Conditions' directory. These are designed to be efficient sequences, according to optseq.
 
@@ -65,6 +66,5 @@ For each subject, a directory will be created within the *Data* directory, which
 1) A . mat file containing all data and constant parameters.
 2) A .png file that shows the design matrix.
 3) A log.txt file that indicates the timings of all stimulus flips, button presses and Syncbox pulses.
-
-
+4) After each block (1-4) is completed, 3 column event onset files will be produced (FSL format - for input into a FEAT-type analysis). There will be one .txt file produced for each stimulus type.  
 
