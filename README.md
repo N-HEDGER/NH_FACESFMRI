@@ -1,4 +1,4 @@
-### MATLAB Code for fMRI project.
+# MATLAB Code for fMRI project.
 
 ## Instructions
 
@@ -23,20 +23,25 @@
 
 2. In blocks 1-3, there are 10 different trial types, which are each repeated 12 times, totalling 120 *stimulus* trials.
 
-*i) Fearful upright faces (12 trials)
-*ii) Neutral upright faces (12 trials)
+* i) Fearful upright faces (12 trials)
 
-*iii) Fearful inverted faces (12 trials)
-*iv) Neutral inverted faces (12 trials)
+* ii) Neutral upright faces (12 trials)
 
-*v) Fearful inverted, inverted faces (12 trials)
-*vi) Neutral inverted, inverted faces (12 trials)
+* iii) Fearful inverted faces (12 trials)
 
-*vii) Fearful upright, inverted faces (12 trials)
-*viii) Neutral upright, inverted faces (12 trials)
+* iv) Neutral inverted faces (12 trials)
 
-*ix) Fearful scrambled faces (12 trials)
-*x) Neutral scrambled faces (12 trials)
+* v) Fearful inverted, inverted faces (12 trials)
+
+* vi) Neutral inverted, inverted faces (12 trials)
+
+* vii) Fearful upright, inverted faces (12 trials)
+
+* viii) Neutral upright, inverted faces (12 trials)
+
+* ix) Fearful scrambled faces (12 trials)
+
+* x) Neutral scrambled faces (12 trials)
 
 3. The remaining 120 trials are *null trials* during which no stimulus is presented. The trial sequence is determined by the EventTable.mat files in the 'Conditions' directory. These are designed to be efficient sequences, according to optseq.
 
